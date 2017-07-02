@@ -3,3 +3,12 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  .form-line
+    label name
+    input(id='name')
+  .form-line  
+    label brithday
+    input(id='brithday')
+  button(type='button') comfirm
+block foot-script
+  script(src='/javascripts/main.js')
